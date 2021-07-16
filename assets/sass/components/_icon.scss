@@ -1,3 +1,7 @@
+@import '../libs/vars';
+@import '../libs/functions';
+@import '../libs/mixins';
+
 ///
 /// Fractal by HTML5 UP
 /// html5up.net | @ajlkn
@@ -13,22 +17,6 @@
 
 		> .label {
 			display: none;
-		}
-
-		&:before {
-			line-height: inherit;
-		}
-
-		&.solid {
-			&:before {
-				font-weight: 900;
-			}
-		}
-
-		&.brands {
-			&:before {
-				font-family: 'Font Awesome 5 Brands';
-			}
 		}
 	}
 

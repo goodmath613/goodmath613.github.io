@@ -1,3 +1,7 @@
+@import '../libs/vars';
+@import '../libs/functions';
+@import '../libs/mixins';
+
 ///
 /// Fractal by HTML5 UP
 /// html5up.net | @ajlkn
@@ -18,7 +22,7 @@
 			margin: 0 0 (_size(element-margin) * 0.75) 0;
 
 			// Small.
-				@include breakpoint('<=small') {
+				@include breakpoint(small) {
 					br {
 						display: none;
 					}
@@ -59,7 +63,7 @@
 			}
 
 			// Small.
-				@include breakpoint('<=small') {
+				@include breakpoint(small) {
 					margin: 0 0 _size(element-margin) 0;
 
 					p {

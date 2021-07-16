@@ -1,3 +1,7 @@
+@import '../libs/vars';
+@import '../libs/functions';
+@import '../libs/mixins';
+
 ///
 /// Fractal by HTML5 UP
 /// html5up.net | @ajlkn
@@ -45,7 +49,7 @@
 		}
 
 		// Medium.
-			@include breakpoint('<=medium') {
+			@include breakpoint(medium) {
 				@include padding(4em, 4em);
 
 				> .inner {
@@ -54,7 +58,7 @@
 			}
 
 		// Small.
-			@include breakpoint('<=small') {
+			@include breakpoint(small) {
 
 				// Landscape.
 					@include orientation(landscape) {
@@ -69,7 +73,7 @@
 			}
 
 		// XSmall.
-			@include breakpoint('<=xsmall') {
+			@include breakpoint(xsmall) {
 
 				// Landscape.
 					@include orientation(landscape) {
